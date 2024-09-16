@@ -1,5 +1,4 @@
 from behave import *
-from utilities.driver_manager import get_driver, close_driver
 from utilities.read_config import get_config_values
 from selenium.webdriver.common.by import By
 import random
@@ -8,7 +7,7 @@ import string
 
 @given("the user launches the site")
 def step_launch_the_site(context):
-    context.driver = get_driver()
+    # No need to call get_driver, context.driver is already initialized by environment.py
     context.driver.get(get_config_values("url", "login_url"))
 
 
@@ -35,7 +34,7 @@ def step_check_registration(context):
     if title == "Your Account Has Been Created!":
         assert True
     else:
-        context.driver.save_screenshots(r".\Screenshots" + "fail_registration.png")
+        context.driver.save_screenshot(r".\Screenshots" + "fail_registration.png")
         assert False
 
 
@@ -45,5 +44,3 @@ def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
 
 def random_numbers(size=10, chars=string.digits):
     return ''.join(random.choice(chars) for x in range(size))
-
-
