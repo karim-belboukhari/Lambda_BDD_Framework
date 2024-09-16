@@ -1,7 +1,6 @@
-Feature: registration functionality
+Feature: User Registration
 
-  Scenario: User Register  successfully
-
+  Scenario: Register a new user successfully
     Given the user launches the site
     When the user selects the register option
     And the user fills in the registration fields
