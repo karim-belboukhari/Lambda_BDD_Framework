@@ -5,5 +5,3 @@ url:
 credentials:
   valid_username: "karim.belboukhari1@yopmail.com"
   valid_password: "Test@1234$"
-  invalid_username: "invalid_username"
-  invalid_password: "invalid_password"

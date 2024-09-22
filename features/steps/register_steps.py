@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 import pyautogui
 import random
 import string
+import allure
 import os
 
 
@@ -97,7 +98,7 @@ def step_assert_error_messages(context):
         first_name_error = context.driver.find_element(By.XPATH,
                                                        "//input[@id='input-firstname']/following-sibling::div[@class='text-danger']")
         assert first_name_error.is_displayed(), "First Name error message is not displayed"
-        assert "First Name must be between 1 and 32 characters!" in first_name_error.text,\
+        assert "vvvFirst Name must be between 1 and 32 characters!" in first_name_error.text,\
             f"Expected error: 'First Name must be between 1 and 32 characters!', but got: {first_name_error.text}"
 
         # Assertions for Last Name error message
@@ -135,6 +136,10 @@ def step_assert_error_messages(context):
 
 
 
+
+
+
+
 def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
@@ -146,4 +151,11 @@ def random_numbers(size=10, chars=string.digits):
 # setup of my full desktop screenshot using pyautoGui
 def capture_full_desktop_screenshot(filename):
     screenshot = pyautogui.screenshot()
-    screenshot.save(os.path.join(r".\Screenshots", f"{filename}.png"))
+    screenshots_dir = r".\Screenshots"
+    if not os.path.exists(screenshots_dir):
+        os.makedirs(screenshots_dir)
+    filepath = os.path.join(screenshots_dir, f"{filename}.png")
+    screenshot.save(filepath)
+    # Attach to Allure
+    allure.attach.file(filepath, name=filename, attachment_type=allure.attachment_type.PNG)
+
