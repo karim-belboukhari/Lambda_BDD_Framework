@@ -53,8 +53,7 @@ def step_fill_registration_fields_with_valid_inputs(context):
 
 
 @when("the user leaves The required fields empty")
-
-def step_incorrect_email_format(context):
+def step_all_fields_empty(context):
 
     try:
         # storing my Variables
@@ -74,7 +73,7 @@ def step_incorrect_email_format(context):
         context.driver.find_element(By.ID, "input-confirm").send_keys(context.confirm_password)
         context.driver.find_element(By.XPATH, "//*[@class='custom-control-label' and @for='input-agree']").click()
         context.driver.find_element(By.XPATH, "//div[@class='float-right']//descendant::input[@type='submit']").click()
-        validation_message = context.driver.execute_script("return arguments[0].validationMessage;", email_input)
+
 
     except Exception as e:
         capture_full_desktop_screenshot("Registration_steps_fail.png")
@@ -96,43 +95,42 @@ def step_assert_error_messages(context):
     try:
         # Assertions for First Name error message
         first_name_error = context.driver.find_element(By.XPATH,
-        "//input[@id='input-firstname']/following-sibling::div[@class='text-danger']")
+                                                       "//input[@id='input-firstname']/following-sibling::div[@class='text-danger']")
         assert first_name_error.is_displayed(), "First Name error message is not displayed"
-        assert "First Name must be between 1 and 32 characters!" in first_name_error.text, \
-        f"Expected error: 'First Name must be between 1 and 32 characters!', but got: {first_name_error.text}"
+        assert "First Name must be between 1 and 32 characters!" in first_name_error.text,\
+            f"Expected error: 'First Name must be between 1 and 32 characters!', but got: {first_name_error.text}"
 
         # Assertions for Last Name error message
         last_name_error = context.driver.find_element(By.XPATH,
-        "//input[@id='input-lastname']/following-sibling::div[@class='text-danger']")
+                                                      "//input[@id='input-lastname']/following-sibling::div[@class='text-danger']")
         assert last_name_error.is_displayed(), "Last Name error message is not displayed"
         assert "Last Name must be between 1 and 32 characters!" in last_name_error.text, \
-        f"Expected error: 'Last Name must be between 1 and 32 characters!', but got: {last_name_error.text}"
+            f"Expected error: 'Last Name must be between 1 and 32 characters!', but got: {last_name_error.text}"
 
         # Assertions for Email error message
         email_error = context.driver.find_element(By.XPATH,
-        "//input[@id='input-email']/following-sibling::div[@class='text-danger']")
+                                                  "//input[@id='input-email']/following-sibling::div[@class='text-danger']")
         assert email_error.is_displayed(), "Email error message is not displayed"
         assert "E-Mail Address does not appear to be valid!" in email_error.text, \
-        f"Expected error: 'E-Mail Address does not appear to be valid!', but got: {email_error.text}"
+            f"Expected error: 'E-Mail Address does not appear to be valid!', but got: {email_error.text}"
 
         # Assertions for Telephone error message
         telephone_error = context.driver.find_element(By.XPATH,
-        "//input[@id='input-telephone']/following-sibling::div[@class='text-danger']")
+                                                      "//input[@id='input-telephone']/following-sibling::div[@class='text-danger']")
         assert telephone_error.is_displayed(), "Telephone error message is not displayed"
         assert "Telephone must be between 3 and 32 characters!" in telephone_error.text, \
-        f"Expected error: 'Telephone must be between 3 and 32 characters!', but got: {telephone_error.text}"
+            f"Expected error: 'Telephone must be between 3 and 32 characters!', but got: {telephone_error.text}"
 
         # Assertions for Password error message
         password_error = context.driver.find_element(By.XPATH,
-        "//input[@id='input-password']/following-sibling::div[@class='text-danger']")
+                                                     "//input[@id='input-password']/following-sibling::div[@class='text-danger']")
         assert password_error.is_displayed(), "Password error message is not displayed"
         assert "Password must be between 4 and 20 characters!" in password_error.text, \
-        f"Expected error: 'Password must be between 4 and 20 characters!', but got: {password_error.text}"
+            f"Expected error: 'Password must be between 4 and 20 characters!', but got: {password_error.text}"
 
-        logging.info("All error messages are correctly displayed.")
 
     except Exception as e:
-        capture_full_desktop_screenshot("error_messages_fail")
+        capture_full_desktop_screenshot("error_messages_fails")
         raise AssertionError(f"Failed to assert error messages: {e}")
 
 

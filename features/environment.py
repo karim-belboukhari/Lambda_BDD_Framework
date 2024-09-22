@@ -11,7 +11,8 @@ def before_all(context):
 def before_scenario(context, scenario):
     # Open a new browser window for each scenario
     logging.info(f"Starting scenario: {scenario.name}")
-    context.driver = get_driver()
+    browser = context.config.userdata.get("browser", "edge")
+    context.driver = get_driver(browser)
 
 
 def after_scenario(context, scenario):
