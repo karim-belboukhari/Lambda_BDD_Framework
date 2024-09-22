@@ -5,3 +5,12 @@ Feature: User Registration
     When the user selects the register option
     And the user fills in the registration fields
     Then the user register successfully
+
+ Scenario: Fail to register due to missing required fields
+    Given the user launches the site
+    When the user selects the register option
+    And the user leaves The required fields empty
+    Then the user sees an error message for missing required fields
+
+
+
