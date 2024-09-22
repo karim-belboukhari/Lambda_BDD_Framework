@@ -152,8 +152,6 @@ def random_numbers(size=10, chars=string.digits):
 def capture_full_desktop_screenshot(filename):
     screenshot = pyautogui.screenshot()
     screenshots_dir = r".\Screenshots"
-    if not os.path.exists(screenshots_dir):
-        os.makedirs(screenshots_dir)
     filepath = os.path.join(screenshots_dir, f"{filename}.png")
     screenshot.save(filepath)
     # Attach to Allure
