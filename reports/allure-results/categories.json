@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Form Validation Error",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*missing required fields.*",
+    "description": "This category includes all failures related to form validation errors like missing or invalid fields."
+  },
+  {
+    "name": "Known Issue",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*Known issue.*",
+    "description": "These are issues known in the system and tracked separately."
+  },
+  {
+    "name": "Flaky Test",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*flaky test.*",
+    "description": "Tests that fail intermittently due to unstable conditions."
+  },
+  {
+    "name": "Product Bug",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*Exception.*",
+    "description": "Failures caused by bugs in the product, like unhandled exceptions or errors during test execution."
+  },
+  {
+    "name": "Field Input Error",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*must be between 1 and 32 characters.*",
+    "description": "Validation failures caused by incorrect field inputs such as invalid name lengths."
+  }
+]
