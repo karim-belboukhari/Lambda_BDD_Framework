@@ -3,8 +3,5 @@
   "type": "Local",
   "reportName": "Local Test Execution",
   "url": "http://localhost:8080",
-  "buildOrder": 1,
-  "buildName": "Local Build",
-  "buildUrl": "http://localhost:8080/build/1",
-  "environment": "Development"
+  "environment": "Production"
 }
