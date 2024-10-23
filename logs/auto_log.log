@@ -328,3 +328,277 @@
 2024-09-22 23:39:43 - INFO - root - Test suite finished
 2024-09-22 23:39:43 - INFO - root - Test suite finished
 2024-09-22 23:39:43 - INFO - root - Test suite finished
+2024-10-02 10:46:16 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:16 - INFO - root - Starting the test suite.
+2024-10-02 10:46:16 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:16 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:16 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-02 10:46:16 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-02 10:46:16 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:46:16 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:46:22 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:22 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:23 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:23 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:23 - INFO - WDM - There is no [win64] edgedriver "129.0.2792.65" for browser edge "129.0.2792" in cache
+2024-10-02 10:46:23 - INFO - WDM - There is no [win64] edgedriver "129.0.2792.65" for browser edge "129.0.2792" in cache
+2024-10-02 10:46:23 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:23 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:23 - INFO - WDM - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip
+2024-10-02 10:46:23 - INFO - WDM - About to download new driver from https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip
+2024-10-02 10:46:23 - INFO - WDM - Driver downloading response is 200
+2024-10-02 10:46:23 - INFO - WDM - Driver downloading response is 200
+2024-10-02 10:46:24 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:24 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:24 - INFO - WDM - Driver has been saved in cache [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65]
+2024-10-02 10:46:24 - INFO - WDM - Driver has been saved in cache [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65]
+2024-10-02 10:46:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:36 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-02 10:46:36 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-02 10:46:36 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-02 10:46:42 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:42 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:42 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:42 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:42 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:46:42 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:46:42 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:46:42 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:46:42 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:46:42 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:46:42 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:46:42 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:46:47 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:47 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:47 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:47 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:48 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:48 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:48 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:48 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:46:48 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:46:48 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:46:48 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:46:48 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:46:59 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:59 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:59 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:59 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:59 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:46:59 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:46:59 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:46:59 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:46:59 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:46:59 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:47:01 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:47:01 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:47:01 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:47:01 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:47:01 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:47:01 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:47:01 - INFO - root - Test suite finished
+2024-10-02 10:47:01 - INFO - root - Test suite finished
+2024-10-02 10:47:01 - INFO - root - Test suite finished
+2024-10-02 10:47:01 - INFO - root - Test suite finished
+2024-10-02 10:47:01 - INFO - root - Test suite finished
+2024-10-02 10:47:01 - INFO - root - Test suite finished
+2024-10-02 10:48:38 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:48:38 - INFO - root - Starting the test suite.
+2024-10-02 10:48:38 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:48:38 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:48:38 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-02 10:48:38 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-02 10:48:38 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:48:38 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:48:45 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:48:45 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:48:45 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:48:45 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:48:45 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:48:45 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:48:57 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:48:57 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:48:57 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:48:57 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-02 10:48:57 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-02 10:48:57 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-02 10:49:03 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:03 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:03 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:03 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:03 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:49:03 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:49:03 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:49:03 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-02 10:49:03 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:49:03 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:49:03 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:49:03 - INFO - WDM - ====== WebDriver manager ======
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Get LATEST edgedriver version for Edge 129.0.2792
+2024-10-02 10:49:10 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:49:10 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:49:10 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:49:10 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\129.0.2792.65\msedgedriver.exe] found in cache
+2024-10-02 10:49:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:20 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:49:20 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:49:20 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:49:20 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:49:20 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-02 10:49:22 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:22 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:22 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:22 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:22 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:22 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-02 10:49:22 - INFO - root - Test suite finished
+2024-10-02 10:49:22 - INFO - root - Test suite finished
+2024-10-02 10:49:22 - INFO - root - Test suite finished
+2024-10-02 10:49:22 - INFO - root - Test suite finished
+2024-10-02 10:49:22 - INFO - root - Test suite finished
+2024-10-02 10:49:22 - INFO - root - Test suite finished
+2024-10-23 03:27:11 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:11 - INFO - root - Starting the test suite.
+2024-10-23 03:27:11 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:11 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:11 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-23 03:27:11 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-23 03:27:11 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:27:11 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:27:13 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:13 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:13 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:13 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:14 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:27:14 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:27:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:20 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:20 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-23 03:27:20 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-23 03:27:20 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-23 03:27:26 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:26 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:26 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:26 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:26 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:27:26 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:27:26 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:27:26 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:27:26 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:27:26 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:27:26 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:27:26 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:27:29 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:27:29 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:27:29 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:27:29 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:27:34 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:34 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:34 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:34 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:34 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:34 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:27:34 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:27:34 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:27:34 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:27:34 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:27:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:36 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:27:36 - INFO - root - Test suite finished
+2024-10-23 03:27:36 - INFO - root - Test suite finished
+2024-10-23 03:27:36 - INFO - root - Test suite finished
+2024-10-23 03:27:36 - INFO - root - Test suite finished
+2024-10-23 03:27:36 - INFO - root - Test suite finished
+2024-10-23 03:27:36 - INFO - root - Test suite finished
+2024-10-23 03:29:44 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:44 - INFO - root - Starting the test suite.
+2024-10-23 03:29:44 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:44 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:44 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-23 03:29:44 - INFO - root - Starting scenario: Register a new user successfully
+2024-10-23 03:29:44 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:29:44 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:29:47 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:29:47 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:29:47 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:29:47 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:29:47 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:29:47 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:29:52 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:52 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:52 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:52 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-23 03:29:52 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-23 03:29:52 - INFO - root - Finished scenario: Register a new user successfully
+2024-10-23 03:29:58 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:58 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:58 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:58 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:29:58 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:29:58 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:29:58 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:29:58 - INFO - root - Starting scenario: Fail to register due to missing required fields
+2024-10-23 03:29:58 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:29:58 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:29:58 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:29:58 - INFO - WDM - ====== WebDriver manager ======
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Get LATEST edgedriver version for Edge 130.0.2849
+2024-10-23 03:30:01 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:30:01 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:30:01 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:30:01 - INFO - WDM - Driver [C:\Users\karim.belboukhari\.wdm\drivers\edgedriver\win64\130.0.2849.46\msedgedriver.exe] found in cache
+2024-10-23 03:30:06 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:06 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:06 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:06 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:06 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:06 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:30:06 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:30:06 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:30:06 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:30:06 - INFO - root - Finished scenario: Fail to register due to missing required fields
+2024-10-23 03:30:08 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:08 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:08 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:08 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:08 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:08 - INFO - root - Logging is set up. Log file: .\logs\auto_log.log
+2024-10-23 03:30:08 - INFO - root - Test suite finished
+2024-10-23 03:30:08 - INFO - root - Test suite finished
+2024-10-23 03:30:08 - INFO - root - Test suite finished
+2024-10-23 03:30:08 - INFO - root - Test suite finished
+2024-10-23 03:30:08 - INFO - root - Test suite finished
+2024-10-23 03:30:08 - INFO - root - Test suite finished
