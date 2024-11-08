@@ -1,1 +1,1 @@
-{"reportName":"Local Test Execution","testRuns":[],"statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2},"time":{"start":1727044754334,"stop":1727044783873,"duration":29539,"minDuration":11232,"maxDuration":18297,"sumDuration":29529}}
+{"reportName":"Local Test Execution","testRuns":[],"statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2},"time":{"start":1731063608653,"stop":1731063634398,"duration":25745,"minDuration":11215,"maxDuration":14528,"sumDuration":25743}}
